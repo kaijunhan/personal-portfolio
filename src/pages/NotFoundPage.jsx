@@ -11,7 +11,7 @@ export default function NotFoundPage() {
                 text="404 Not Found :("
                 className="!text-8xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
               />
-          <Link to="/">Home from Link</Link>
+          <Link to="/portfolio/">Home from Link</Link>
           <Footer/>
         </div>
       </div>
