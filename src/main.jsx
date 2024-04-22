@@ -9,7 +9,7 @@ import './styles/tailwind.css';
 
 const router = createBrowserRouter([
   {
-    path: '/portfolio/',
+    path: '/',
     element: (
       <AnimatePresence initial="false" mode="wait">
         <App />
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     errorElement: React.createElement(NotFoundPage),
   },
   {
-    path: '/portfolio/blog',
+    path: '/blog',
     element: (
       <AnimatePresence mode="wait">
         <Blog />
