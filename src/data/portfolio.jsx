@@ -1,6 +1,6 @@
-import cityImg from '../assets/city.png'
-import brightImg from '../assets/bright.png'
-import dinerImg from '../assets/diner.png'
+import cityImg from '../portfolioImages/city.png'
+import brightImg from '../portfolioImages/bright.png'
+import dinerImg from '../portfolioImages/diner.png'
 
 export default [
    {
