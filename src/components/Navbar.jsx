@@ -85,11 +85,11 @@ const Navbar = () => {
 
       <div className={`w-full flex justify-between items-center hidden md:flex`}>
         <nav className="flex items-center justify-center" aria-label="Main Navigation">
-          <CustomLink className="mr-4" href="/" title="Home" />
+          <CustomLink className="mr-4" href="/portfolio" title="Home" />
           {/* <CustomLink className="mx-4" href="/about" title="About" /> */}
           {/* <CustomLink className="mx-4" href="/projects" title="Projects" /> */}
           {/* <CustomLink className="mx-4" href="/articles" title="Articles" /> */}
-          <CustomLink className="ml-4" href="/blog" title="Blog" />
+          <CustomLink className="ml-4" href="/portfolio/blog" title="Blog" />
         </nav>
         <nav className="flex items-center justify-center flex-wrap lg:mt-2" aria-label="Social Media Links">
           <motion.a
@@ -170,11 +170,11 @@ const Navbar = () => {
           animate={{ scale: 1, opacity: 1 }}
         >
           <nav className="flex items-center justify-center flex-col" aria-label="Mobile Navigation">
-            <CustomMobileLink toggle={handleClick} className="mr-4 lg:m-0 lg:my-2" href="/" title="Home" />
-            <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/about" title="About" />
+            <CustomMobileLink toggle={handleClick} className="mr-4 lg:m-0 lg:my-2" href="/portfolio" title="Home" />
+            {/* <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/about" title="About" />
             <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/projects" title="Projects" />
-            <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/articles" title="Articles" />
-            <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/blog" title="Blog" />
+            <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/articles" title="Articles" /> */}
+            <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/portfolio/blog" title="Blog" />
           </nav>
           <nav className="flex items-center justify-center mt-2" aria-label="Mobile Social Media Links">
             <motion.a
