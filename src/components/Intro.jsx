@@ -10,7 +10,7 @@ function Intro() {
             <br />
             Check out my {' '}
             <a
-               href="/"
+               href="/portfolio/blog"
                target="_blank"
                className="dark:text-cyan-500 underline underline-offset-2 decoration-2 decoration-cyan-600 hover:decoration-red-600 text-black"
                rel="noreferrer noopener"
