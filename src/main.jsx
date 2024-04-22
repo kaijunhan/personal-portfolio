@@ -9,7 +9,7 @@ import './styles/tailwind.css';
 
 const router = createBrowserRouter([
   {
-    path: '/portfolio',
+    path: '/portfolio/',
     element: (
       <AnimatePresence initial="false" mode="wait">
         <App />
