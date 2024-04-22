@@ -5,7 +5,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const PortfolioItem = ({ title, imgUrl, stack, link, index }) => {
   const shouldReduceMotion = useReducedMotion();
-  const imageObtained = new URL(imgUrl, import.meta.url).href
 
   const PortfolioItemContent = (
     <motion.div
@@ -23,7 +22,7 @@ const PortfolioItem = ({ title, imgUrl, stack, link, index }) => {
           className='w-full h-full flex flex-col justify-evenly items-center border-2 border-stone-900 dark:border-white rounded-[20px] overflow-hidden'
         >
           <img
-            src={imageObtained}
+            src={imgUrl}
             alt='web-development'
             className="w-full h-36 md:h-48 object-cover cursor-pointer rounded-[20px]"
           />
