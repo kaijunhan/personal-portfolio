@@ -1,4 +1,4 @@
-# <h1>My Personal Portfolio</h1>
+# My Personal Portfolio
 
 This portfolio is built using the minimal portfolio template provided by [ForrestKnight](https://github.com/ForrestKnight).
 
