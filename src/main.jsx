@@ -9,7 +9,7 @@ import './styles/tailwind.css';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/portfolio',
     element: (
       <AnimatePresence initial="false" mode="wait">
         <App />
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     errorElement: React.createElement(NotFoundPage),
   },
   {
-    path: '/blog',
+    path: '/portfolio/blog',
     element: (
       <AnimatePresence mode="wait">
         <Blog />
@@ -27,14 +27,6 @@ const router = createBrowserRouter([
     errorElement: React.createElement(NotFoundPage),
   },
 ]);
-
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   React.createElement(
-//     React.StrictMode,
-//     null,
-//     React.createElement(RouterProvider, { router: router })
-//   )
-// );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
